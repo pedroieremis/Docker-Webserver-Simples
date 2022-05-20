@@ -1,0 +1,14 @@
+body {
+    background-color: black;
+    padding: 10px;
+    border: 2px solid white;
+    margin: 5px;
+}
+
+#title {
+    font-weight: 300;
+}
+
+#title, .prititle, .priprititle, .llink{
+    color: white;
+}
