@@ -14,8 +14,8 @@
     <section class="prititle">
         <header>
             <h2 class="priprititle">Instruções básicas</h2>
-            <p><li>docker build -t "nome de imagem"</li></p>
-            <p><li>docker run -d -p 9090(porta local):"porta container" "nome de imagem"</li></p>
-            <p class="llink">E por fim, acesse: <a href="localhost:9090" target="_blank">container</a></p>
+            <p><li>docker build -t "nome de imagem" . ("." Para local dos arquivos)</li></p>
+            <p><li>docker run --name "nome container" -itd -p "porta local":"porta container" "nome de imagem"</li></p>
+            <p class="llink">E por fim, acesse: localhost:"porta local"</p>
         </header>
     </section>
