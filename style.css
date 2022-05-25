@@ -13,7 +13,7 @@ body {
     color: white;
 }
 
-.zerox, .doisx, .llink {
+#zerox, .doisx, .llink {
     padding-top: 5px;
     font-size: large;
 }
