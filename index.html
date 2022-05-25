@@ -13,9 +13,20 @@
 
     <section class="prititle">
         <header>
-            <h2 class="priprititle">Instruções básicas</h2>
-            <p><li>docker build -t "nome de imagem" . ("." Para local dos arquivos)</li></p>
-            <p><li>docker run --name "nome container" --rm -itd -p "porta local":"porta container" "nome de imagem"</li></p>
-            <p class="llink">E por fim, acesse: localhost:"porta local"</p>
+            <h2>Instruções básicas de passo a passo opcional</h2>
+
+            <section class="zerox">
+                <p><li>docker build -t nome_da_imagem .</li></p>
+                <p>"-t": Nomear images | "nome_da_imagem": Você que define | "." Para diretório atual</p>
+            </section>
+            <section class="doisx">
+                <p><li>docker run --name nome_container --rm -id -p porta_local:80 nome_da_imagem</li></p>
+                <p>"nome_container": Você que define | "--rm": Para remover container após parar execução</p>
+                <p>"-id": i - De interativo, d - Executar em Background (Não impedindo prompt)</p>
+                <p>"-p": Mapeamento de portas | "porta_local": Você define | "80": Porta da nginx | "nome_da_imagem": Você define</p>
+            </section>
+
+            <p class="llink"><li>Ou use de forma mais simples e rápida - docker run -d -p porta_local:80 nome_da_imagem</li></p>
+            <p>E por fim, acesse: localhost:porta_local</p>
         </header>
     </section>

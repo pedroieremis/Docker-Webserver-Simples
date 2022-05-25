@@ -9,6 +9,11 @@ body {
     font-weight: 300;
 }
 
-#title, .prititle, .priprititle, .llink{
+#title, .prititle {
     color: white;
+}
+
+.zerox, .doisx, .llink {
+    padding-top: 5px;
+
 }
