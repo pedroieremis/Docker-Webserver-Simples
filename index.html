@@ -11,25 +11,38 @@
         <h1 id="title">PARABÉNS, ESTE É O HTML PARA SUBIR COM DOCKER!</h1>
     </header>
 
-    <section class="prititle">
-        <header>
+    <section>
+        <header class="prititle">
             <h2>Instruções básicas de passos a mais se desejar e, com explicações</h2>
+        </header>
 
-            <section class="zerox">
-                <p><li>docker build -t nome_da_imagem .</li></p>
+        <section>
+            <header class="instzero">
+                <p>
+                    <h3><li>docker build -t nome_da_imagem .</li></h3>
+                </p>
+            </header>
+            <section class="zerox"> 
                 <p>"-t": Nomear imagem | "nome_da_imagem": Você que define | "." Para diretório atual</p>
             </section>
+        </section>
 
+        <section>
+            <header class="instdois">
+                <p>
+                    <h3><li>docker run --name nome_container --rm -id -p porta_local:80 nome_da_imagem</li></h3>
+                </p>
+            </header>
             <section class="doisx">
-                <p><li>docker run --name nome_container --rm -id -p porta_local:80 nome_da_imagem</li></p>
                 <p>"nome_container": Você que define | "--rm": Para remover container após parar execução</p>
                 <p>"-id": i - De interativo, d - Executar em Background (Não impedindo prompt)</p>
                 <p>"-p": Mapeamento de portas | "porta_local": Você define | "80": Porta da nginx | "nome_da_imagem": Você define</p>
             </section>
+        </section>
             
-            <section class="llink">
-                <p><li>Ou use de forma mais simples e rápida como vimos - docker run -d -p porta_local:80 nome_da_imagem</li></p>
-                <p>E por fim, acesse: localhost:porta_local</p>
-            </section>
-        </header>
+        <section class="llink">
+            <p>Ou use de forma mais simples e rápida como vimos - docker run -d -p porta_local:80 nome_da_imagem</p>
+            <p>E por fim, acesse: localhost:porta_local</p>
+        </section>
     </section>
+</body>
