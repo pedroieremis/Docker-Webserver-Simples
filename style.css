@@ -13,14 +13,14 @@ body {
 }
 
 .prititle {
-    text-align: left;
+    text-align: center;
     font-family: 'Times New Roman';
     font-size: large;
 }
 
 .instzero, .instdois {
     font-family: Verdana;
-    padding-top: 12px;
+    padding-top: 5px;
 }
 
 .zerox, .doisx {
