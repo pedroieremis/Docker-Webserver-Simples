@@ -1,17 +1,29 @@
-## Suba o Container com Docker
+## Implementação Web com Docker
 
-Repositório com html e css para subir com o docker usando o nginx
+Repositório com html e css simples para subir em Container Docker. Neste caso, usando o webserver da nginx. Siga os passos abaixo para obter o repostório e subir a Infraestrutura.
 
-Siga os passos abaixo para subir o container e acessar explicações e outras dicas:
+---
 
+Para clonar o repositório localmente:
 ```shell
-git clone https://github.com/PedroIeremis/TestesDocker.git
+git clone https://github.com/pedroieremis/Web-Docker.git
+```
 
-cd TestesDocker
+Navegue ao diretório do repositório clonado:
+```shell
+cd Web-Docker/
+```
 
+Construa a Imagem:
+```shell
 docker build -t nx .
+```
 
+Suba a Infraestrutura:
+```shell
 docker run -d -p 8080:80 nx
 ```
+
+__Acesse a Infraestrutura:__
 
 Abra navegador e acesse: localhost:8080
