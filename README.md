@@ -6,12 +6,12 @@ Repositório com html e css simples para subir em Container Docker. Neste caso, 
 
 Para clonar o repositório localmente:
 ```shell
-git clone https://github.com/pedroieremis/Web-Docker.git
+git clone https://github.com/pedroieremis/Docker-Webserver-Simples.git
 ```
 
 Navegue ao diretório do repositório clonado:
 ```shell
-cd Web-Docker/
+cd Docker-Webserver-Simples/
 ```
 
 Construa a Imagem:
